@@ -1,5 +1,5 @@
 {
-  "name": "react-ui-library",
+  "name": "@architg564/react-ui-library",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/react-ui.js",
