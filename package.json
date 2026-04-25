@@ -3,7 +3,14 @@
   "version": "0.0.4",
   "type": "module",
   "main": "dist/react-ui.js",
-  "types": "dist/main.d.js",
+  "module": "dist/react-ui.js",
+  "types": "dist/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-ui.js",
+      "require": "./dist/react-ui.cjs"
+    }
+  },
   "files": [
     "dist"
   ],
