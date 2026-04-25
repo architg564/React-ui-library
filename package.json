@@ -1,6 +1,6 @@
 {
   "name": "@architg564/react-ui-library",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "dist/react-ui.js",
   "module": "dist/react-ui.js",
