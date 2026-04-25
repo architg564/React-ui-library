@@ -5,12 +5,6 @@
   "main": "dist/react-ui.js",
   "module": "dist/react-ui.js",
   "types": "dist/main.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/react-ui.js",
-      "require": "./dist/react-ui.cjs"
-    }
-  },
   "files": [
     "dist"
   ],

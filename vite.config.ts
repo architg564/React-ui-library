@@ -17,11 +17,17 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/main.ts"),
       name: "react-ui",
-      fileName: (format) => `react-ui.${format === "es" ? "js" : "cjs"}`,
-      formats: ["es", "cjs"],
+      fileName: "react-ui",
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
+        },
+      },
     },
   },
 });
